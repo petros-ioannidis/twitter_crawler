@@ -2,7 +2,7 @@ from attr_analyser import analyzer
 from converter import convert
 import datetime
 
-a = analyzer("positive_words.txt","negative_words.txt","finalmyfinal.txt")
+a = analyzer("positive_words.txt","negative_words.txt","training_dataset.txt")
 
 f = open("completemyfinal.txt","r")
 

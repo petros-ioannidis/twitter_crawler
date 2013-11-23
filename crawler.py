@@ -102,8 +102,9 @@ class crawler:
                 else:
                     print "Trying next tweet." 
         print "Saving completed successfully."            
+
 c = crawler(sys.argv[1])
 #c.random_tweets(2)
 c.gather_all_tweets()
-c.write_tweets_to_file("myfinal.txt")
+c.write_tweets_to_file("tweets.txt")
         
